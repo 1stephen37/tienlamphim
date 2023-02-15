@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html {
+    /* font-family: "Poppins","Helvetica","Arial",sans-serif; */
+    font-family: "Open Sans", Sans-serif;
+}
+
+
+
+#header {
+    height: 41px;
+    background: linear-gradient(90deg, #068587 30%, #E40347 100%);
+    
+}
+
+#header p {
+    line-height: 41px;
+    font-size: 12px;
+    background-color: rgba(0,0,0,0.4);
+    text-align:center;
+
+}
+
+#banner {
+    height: 600px;
+    background: linear-gradient(90deg, #068587 30%, #E40347 100%);
+    padding: 50px 0;
+    position: relative;
+}
+
+.cols-1 {
+    width: 50%;
+  
+    /* position: relative; */
+
+}
+
+.cols-1 img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 453px;
+    top: 150px;
+
+}
+
+.cols-1 h2 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3em;
+    position: absolute;
+    top: 275px;
+    left: 199px;
+}
+
+.cols-1 > p {
+    position: absolute;
+    top: 350px;
+    left: 199px;
+    font-size: 20px;
+}
+
+.cols-1 .donate-btn {
+    position: absolute;
+    top: 430px;
+    left: 400px;
+    width: 210px;
+    height: 46px;
+    background-color: #f2295b;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.cols-1 .donate-btn:hover {
+    background-color: #ffd012;
+}
+
+
+.cols-1 .donate-btn i {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.cols-1 .donate-btn p {
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.cols-2 {
+    position: absolute;
+    right: 200px;
+    width: 492px;
+    height: 498px;
+}
+
+#share {
+    width: 100%;
+    height: 1080px;
+    padding-top: 25px;
+}
+
+#share h2 {
+    color:#068587;
+    font-size: 36px;
+    text-align: center;
+    padding: 10px 0px 15px;
+}
+
+#share .sub-heading {
+    font-size: 20px;
+    color: #000;
+    text-align: justify;
+    padding: 0 200px;
+    letter-spacing: 0.3px;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+.share-img {
+    position: relative;
+}
+
+.share-img .frame-img {
+    position: absolute;
+    width: 353px;
+    height: 364px;
+    left: 209px;
+}
+
+.share-img .frame-img img {
+    width: 247px;
+    height: 247px;
+}
+
+.share-img .frame-img h3 {
+    font-size: 22px;
+    font-family: "Poppins","Helvetica","Arial",sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+.share-img .frame-img p {
+    color: #000;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chat-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: #068587;
+    border-radius: 30px;
+}
+
+.chat-button > i {
+    padding: 15px;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+
+.sub-icon-search {
+    position: fixed;
+    right: 0;
+    top: 323px;
+    background-color:#112F41 ;
+    width: 30px;
+    height: 30px;
+}
+
+.sub-icon-search i {
+    padding: 7px 0px 0px 10px;
+}
+
+.sub-icon-edit {
+    position: fixed;
+    right: 0;
+    top: 355px;
+    background-color:#112F41 ;
+    width: 30px;
+    height: 30px;
+}
+
+.sub-icon-edit i {
+    padding: 7px 0px 0px 10px;
+}
