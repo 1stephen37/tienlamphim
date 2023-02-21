@@ -555,6 +555,10 @@ html {
     height: 30px;
 }
 
+.sub-icon-edit:hover {
+    cursor: pointer;
+}
+
 .sub-icon-edit i {
     padding: 7px 0px 0px 10px;
 }
