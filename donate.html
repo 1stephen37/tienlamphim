@@ -199,10 +199,10 @@
             <fieldset>
               <legend>thông tin của bạn</legend><br>
               <label for="name">tên của bạn : </label> 
-              <input name="name" type="text">
+              <input name="name" tabindex="1" type="text">
               <br><br>
               <label for="">tuổi của bạn : </label>
-              <input name="name" type="text">
+              <input name="name" tabindex="2" type="number">
               <br> <br>
               <label>Giới tính của bạn : </label>
               <label><input name="sex" type="radio"> nữ <input name="sex" type="radio"> nam </label>
@@ -224,13 +224,13 @@
             <labeL>số tiền bạn muốn ủng hộ : </labeL>
             <input type="number" min="10000" max="100000" step="10000"> <br> <br>
             <label>mã thẻ : </label> 
-            <input name="name" type="text"><br> <br>
+            <input tabindex="3" name="name" type="text"><br> <br>
             <label>mã nạp : </label> 
-            <input name="name" type="text"><br> <br>
+            <input tabindex="4" name="name" type="text"><br> <br>
             <label>
               đôi lời nhắn gửi đến chúng mình: 
             </label> <br> 
-            <textarea rows="5" cols="50" > </textarea>  
+            <textarea tabindex="5" rows="5" cols="50" > </textarea>  
             </fieldset> 
             <div class="donate-btn">
               <button type="submit" >Donate</button>
