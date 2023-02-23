@@ -131,6 +131,10 @@ body {
     margin: 8px;
 }
 
+#nav .icon-social a {
+    text-decoration: none;
+}
+
 #content .heading {
     font-size: 40px;
     margin: 75px 0 50px;
@@ -328,7 +332,7 @@ body {
     text-decoration: none;
 }
 
-.chat-button {
+/* .chat-button {
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -342,7 +346,7 @@ body {
     padding: 15px;
     font-weight: 900;
     font-size: 32px;
-}
+} */
 
 
 .sub-icon-search {
